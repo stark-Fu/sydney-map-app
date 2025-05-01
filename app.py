@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Sydney Projects Map", layout="wide")
 
 # 加载数据
-df = pd.read_excel("/Users/fukang/Downloads/my project/sydney_map_app/sydney_projects.xlsx")
+df = pd.read_excel("sydney_projects.xlsx")
 
 st.sidebar.header("筛选条件")
 
